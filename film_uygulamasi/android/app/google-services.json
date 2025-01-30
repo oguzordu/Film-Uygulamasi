@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "903303192378",
+    "project_id": "film-uygulamasi-d0c21",
+    "storage_bucket": "film-uygulamasi-d0c21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903303192378:android:cab57e4ace9ff6dee1ba03",
+        "android_client_info": {
+          "package_name": "com.example.film_uygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903303192378-jl58rbr3vij47ctuufut8c9h5odo1uhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.film_uygulamasi",
+            "certificate_hash": "a00de0d455ad8b6f6d0e6cd1d7f9d26a0de5f560"
+          }
+        },
+        {
+          "client_id": "903303192378-pc8h7ifoa5tf5rogvkp3f1iqfdonlsak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXzdz_FPIIvcSb5v9kilbSLV6qldJdJAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903303192378-pc8h7ifoa5tf5rogvkp3f1iqfdonlsak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "903303192378-vkf7uct5lm9q9sgcon4lrs1dbq5q8dbt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.filmUygulamasi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903303192378:android:1e1d97db0986f3c9e1ba03",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903303192378-elr9m03ivcvmqk6locouchb2k17hqeo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_1",
+            "certificate_hash": "a00de0d455ad8b6f6d0e6cd1d7f9d26a0de5f560"
+          }
+        },
+        {
+          "client_id": "903303192378-pc8h7ifoa5tf5rogvkp3f1iqfdonlsak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXzdz_FPIIvcSb5v9kilbSLV6qldJdJAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903303192378-pc8h7ifoa5tf5rogvkp3f1iqfdonlsak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "903303192378-vkf7uct5lm9q9sgcon4lrs1dbq5q8dbt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.filmUygulamasi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

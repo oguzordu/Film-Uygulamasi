@@ -28,3 +28,5 @@ doc/api/
 
 # Firebase service account key (revoked, must never be committed)
 *firebase-adminsdk*.json
+app-release.apk
+*.mp4

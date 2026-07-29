@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:logger/logger.dart'; // Logger import
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:firebase_core/firebase_core.dart'; // Firebase import
 import 'navigation_bar_screen.dart'; // NavigationBarScreen import
 
 void main() async {
   WidgetsFlutterBinding
       .ensureInitialized(); // Ensure Flutter binding is initialized
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp(); // Initialize Firebase
-
-  var logger = Logger();
-  // Log the API key directly (if necessary, consider more secure logging practices)
-  logger.d('API Key: REDACTED_TMDB_KEY');
 
   runApp(const MyApp());
 }

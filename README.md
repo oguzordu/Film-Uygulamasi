@@ -17,10 +17,16 @@ sağlayan bir mobil uygulama.
 - **Frontend:** Flutter (Dart)
 - **Backend:** Firebase (Authentication, Firestore)
 
+### Kurulum
+
+TMDB API anahtarı gerektiriyor: `film_uygulamasi/.env.example` dosyasını
+`.env` olarak kopyalayıp kendi anahtarını gir.
+
 ### Notlar
 
-Hızlıca deneyebilmek için tam bir kurulum yapmadan test edilebilecek hazır
-bir Android APK'sı (`app-release.apk`) eklenmiştir.
+Hızlıca deneyebilmek için hazır bir Android APK'sı bu reponun
+[Releases](../../releases) sayfasında bulunabilir (repoyu şişirmemek için
+artık git geçmişine değil, oraya ekleniyor).
 
 ---
 
@@ -41,7 +47,13 @@ personal collections.
 - **Frontend:** Flutter (Dart)
 - **Backend:** Firebase (Authentication, Firestore)
 
+### Setup
+
+Requires a TMDB API key: copy `film_uygulamasi/.env.example` to `.env` and
+add your own key.
+
 ### Notes
 
-A prebuilt Android APK (`app-release.apk`) is included for quick testing
-without a full build setup.
+A prebuilt Android APK is available on this repo's
+[Releases](../../releases) page for quick testing (kept out of git history
+to avoid bloating the repo).

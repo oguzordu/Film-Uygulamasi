@@ -7,6 +7,7 @@ import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'dart:convert';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class MovieDetailScreen extends StatefulWidget {
   final int? movieId;
@@ -184,7 +185,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
   }
 
   Future<void> fetchMovieDetails() async {
-    const apiKey = 'REDACTED_TMDB_KEY';
+    final apiKey = dotenv.env['TMDB_API_KEY'] ?? '';
     final movieDetailsUrl = Uri.parse(
         'https://api.themoviedb.org/3/movie/${widget.movieId}?api_key=$apiKey&language=en-US');
     final castUrl = Uri.parse(
